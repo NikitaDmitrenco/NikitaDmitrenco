@@ -1,33 +1,26 @@
-<div align="center">
-
-# ⚡ Nikita Dmitrenco
-
-### 👨‍💻 Full-Stack Software Engineer
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Full-Stack+Software+Engineer;Next.js+16+%26+React+19+Architect;TypeScript+%26+PostgreSQL+Specialist;Building+Scalable+Web+Platforms)](https://git.io/typing-svg)
-
-<br/>
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NikitaDmitrenco)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikita@dmitrenco.dev)
-
-</div>
-
+# Hi there, I'm Nikita Dmitrenco 👋
+**Full-Stack Software Engineer** specializing in modern TypeScript ecosystems, Next.js architecture, scalable web platforms, and data-intensive applications.
 ---
-
-### 🌟 About Me
-
-```typescript
-const engineer: DeveloperProfile = {
-  name: "Nikita Dmitrenco",
-  role: "Full-Stack Software Engineer",
-  coreFocus: ["Modular Monolith Architecture", "Type-Safe Web Applications", "Database Engineering"],
-  currentStack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "PostgreSQL", "Drizzle ORM"],
-  principles: [
-    "Clean code & strict separation of concerns",
-    "Defensive server-side validation & zero IEEE-754 financial bugs",
-    "High-speed SSR & sub-second page performance"
-  ]
-};
+## 🎯 About Me
+- 💻 Passionate about **modular system design**, type safety, clean architecture, and performance.
+- 🛠️ Building full-stack web applications with **Next.js 16 (App Router), React 19, Node.js, TypeScript, Drizzle ORM, and PostgreSQL**.
+- 📐 Focused on **robust engineering practices**: defensive server-side validation, integer minor-unit financial accounting, edge-level security, and automated testing pipelines.
+- 🌍 Designing accessible, internationalized (i18n), and responsive user experiences.
+---
+## 🚀 Featured Project
+### [Zento — Modern Multilingual E-Commerce Platform](https://github.com/NikitaDmitrenco/zento)
+> An end-to-end digital technology e-commerce modular monolith with tri-lingual localization (RU, EN, RO), integer minor-unit pricing, edge-guarded RBAC, and server-authoritative checkout.
+- **Stack**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Drizzle ORM, Supabase PostgreSQL, Vitest, Playwright.
+- **Key Engineering**:
+  - **Financial Integrity**: Zero IEEE 754 precision issues via integer minor units and immutable `order_items` price snapshotting.
+  - **Security & RBAC**: Stateless JWT session pipeline in `httpOnly` cookies guarded at the perimeter with Next.js Edge Middleware.
+  - **Testing**: 29 automated Vitest tests across 10 test suites, Playwright E2E coverage, and strict TypeScript/ESLint CI hygiene.
+---
+## 🛠️ Core Tech Stack
+```text
+Languages:       TypeScript, JavaScript (ES2024+), SQL, HTML5, CSS3
+Frontend:        React 19, Next.js 16 (App Router, Server Components), Tailwind CSS v4
+Backend & APIs:  Node.js, Next.js Route Handlers, Server Actions, REST APIs, Zod Validation
+Databases & ORM: PostgreSQL, Supabase, Drizzle ORM, Drizzle Kit, Migrations & Indexing
+Auth & Security: JWT (jose), bcryptjs, Edge Middleware, Role-Based Access Control (RBAC)
+Testing & Tools: Vitest, Playwright, ESLint, Git, GitHub Actions, npm
