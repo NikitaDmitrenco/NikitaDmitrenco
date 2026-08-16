@@ -21,12 +21,12 @@
   - **Security & RBAC**: Stateless JWT session pipeline in `httpOnly` cookies guarded at the perimeter with Next.js Edge Middleware.
   - **Testing**: 29 automated Vitest tests across 10 test suites, Playwright E2E coverage, and strict TypeScript/ESLint CI hygiene.
 
-### [Aura — Autonomous AI Local Discovery Agent](https://github.com/NikitaDmitrenco/aura)
+### [Aura — Autonomous AI Local Discovery Agent](https://github.com/NikitaDmitrenco/aura) · [Live Demo](https://aura-three-weld.vercel.app/)
 > An AI-native autonomous discovery engine converting natural-language experiential requests into verified real-world places with semantic query expansion, 6-dimensional verification, reputation synthesis, and geospatial intelligence.
 - **Stack**: Next.js 14 (App Router), TypeScript, Vanilla CSS Modules, OpenStreetMap Overpass API, Nominatim Geocoding, Leaflet, Server-Sent Events (SSE), Google Gemini / OpenAI.
 - **Key Engineering**:
   - **Multi-Step Agent Architecture**: Autonomous loop coordinating intent parsing, multi-hypothesis semantic query expansion, geospatial entity deduplication (Haversine formula), and dynamic weighted intent-match scoring.
-  - **Zero-Hallucination Claim Verification**: Rigorous 6-dimensional verification engine (*Identity, Location, Activity, Accommodation, Schedule, Atmosphere*) and photo confidence filter (≥ 0.75) with strict generic stock rejection.
+  - **Zero-Hallucination Claim Verification**: Rigorous 6-dimensional verification engine (*Identity, Location, Activity, Accommodation, Schedule, Atmosphere*).
   - **Real-Time Streaming & Geospatial UX**: Server-Sent Events (`ReadableStream`) streaming live agent step progression, interactive Leaflet map with CartoDB dark tiles, and multi-turn conversational memory with session state persistence.
   - **Testing**: 15/15 automated End-to-End scenarios test battery with 100% success rate and zero-config offline fallback mode.
 
