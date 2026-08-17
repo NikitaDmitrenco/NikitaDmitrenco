@@ -13,6 +13,15 @@
 
 ## 🚀 Featured Projects
 
+### [Delo — AI-Powered Minimalist Task Manager](https://github.com/NikitaDmitrenco/delo) · [Live App](https://delo-dusky.vercel.app/) · [Telegram Bot](https://t.me/delo_task_bot)
+> A minimalist AI-driven task orchestration system enabling frictionless task creation via Telegram (natural text & voice notes) and real-time synchronized Web dashboard with contextual deadline calculation.
+- **Stack**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, grammY, Supabase PostgreSQL, OpenAI GPT-4o-mini & Whisper, Vitest.
+- **Key Engineering**:
+  - **Dual Ingestion Pipeline (Voice & Text)**: Real-time Telegram audio ingestion (`.oga` streaming to OpenAI Whisper STT) combined with contextual NLP parsing (`gpt-4o-mini` with structured JSON schema and resilient Unicode Cyrillic offline fallback engine).
+  - **Deterministic Timezone & Deadline Engine**: Precise wall-clock relative date/time resolution (anchored to user timezone) with strict no-hallucination policy (`deadline: null` when unspecified).
+  - **Account Federation & Deep Linking**: Secure single-use cryptographic token protocol (`delo_<uuid>`) and 1-tap phone contact verification linking Telegram accounts to multi-tenant Supabase Auth profiles under PostgreSQL Row Level Security (RLS).
+  - **Testing & Reliability**: 32/32 passing Vitest unit/integration tests with automated continuous deployment on Vercel.
+
 ### [Zento — Modern Multilingual E-Commerce Platform](https://github.com/NikitaDmitrenco/zento)
 > An end-to-end digital technology e-commerce modular monolith with tri-lingual localization (RU, EN, RO), integer minor-unit pricing, edge-guarded RBAC, and server-authoritative checkout.
 - **Stack**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Drizzle ORM, Supabase PostgreSQL, Vitest, Playwright.
