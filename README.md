@@ -82,5 +82,7 @@ Vitest · Playwright
 - Startup collaborations
 
 - **GitHub:** [@NikitaDmitrenco](https://github.com/NikitaDmitrenco)
+- **LinkedIn:** [Nikita Dmitrenco](https://www.linkedin.com/in/nikita-dmitrenco)
+- **Telegram:** [@nik_dmwrite](https://t.me/nik_dmwrite)
 
 
