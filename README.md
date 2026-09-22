@@ -1,58 +1,72 @@
 # Nikita Dmitrenco
-### Full-Stack Developer building web products with AI-assisted development
 
-I build full-stack web applications and AI-powered features using TypeScript, Next.js, React, PostgreSQL/Supabase and external APIs.
+### Full-Stack Product Developer building web products from idea to production
 
-I use AI-assisted development to move quickly from an idea to a working product. My strongest area is connecting frontend, backend, databases and external services into a usable application.
+I build full-stack web applications, e-commerce platforms and AI-powered product features.
 
-I'm currently improving my knowledge of production infrastructure, advanced security, system architecture and AI agent design.
+My focus is on connecting the entire product: frontend, backend, databases, authentication, integrations and admin tools.
+
+Currently building digital products at **Digital Modus Operandi**.
 
 ---
 
 ## Featured Projects
 
-### [Zento — E-Commerce Web Application](https://github.com/NikitaDmitrenco/zento)
-A full-stack e-commerce application with product browsing, user accounts, shopping cart, checkout, orders and an admin interface.
+### [Tehnosklad — Client Project](https://github.com/xondell/tehnosklad)
+
+Production e-commerce and lead management platform built for a real client in Moldova. Developed collaboratively with Boris.
 
 **What it demonstrates:**
-- Full-stack web application development
-- Authentication & user accounts
-- PostgreSQL database with Drizzle ORM
-- Shopping cart & order creation flow
-- Admin management panel
-- Frontend ↔ backend communication
+- Bilingual RU/RO storefront
+- Product catalog, search and filtering
+- Admin panel and content management
+- PostgreSQL / Supabase
+- Customer lead management
+- Telegram integration
+- Grounded AI assistant
+- Authentication and Row Level Security (RLS)
+- Automated testing
+- SEO, localized URLs, sitemap and structured data
 
-[Live Demo](https://zento-blue.vercel.app) · [GitHub](https://github.com/NikitaDmitrenco/zento)
+[GitHub](https://github.com/xondell/tehnosklad)
 
 ---
 
-### [Delo — Task Manager for Web + Telegram](https://github.com/NikitaDmitrenco/delo)
-A task manager that works seamlessly across both a web dashboard and Telegram with natural text and voice input.
+### [Delo — AI Task Manager for Web + Telegram](https://github.com/NikitaDmitrenco/delo)
+
+A full-stack product experiment connecting a web dashboard with Telegram. Users can create tasks using natural language or voice.
 
 **What it demonstrates:**
-- Full-stack application with real-time sync
-- Telegram bot integration (grammY)
-- AI-assisted text parsing & structured extraction
-- Voice message transcription (OpenAI Whisper)
-- PostgreSQL database with Row Level Security (RLS)
-- Communication between Telegram, backend API and web app
+- Natural language task creation
+- AI-powered structured extraction
+- Voice input with OpenAI Whisper
+- Telegram bot integration
+- PostgreSQL / Supabase
+- Row Level Security (RLS)
+- Account linking between web and Telegram
+- Reminders and timezone-aware scheduling
+- Automated tests
 
 [Live Web App](https://delo-dusky.vercel.app) · [Telegram Bot](https://t.me/delo_task_bot) · [GitHub](https://github.com/NikitaDmitrenco/delo)
 
 ---
 
-### [Aura — AI-Powered Local Discovery](https://github.com/NikitaDmitrenco/aura)
-*Experimental / Learning Project*
+### [Zento — E-Commerce Application](https://github.com/NikitaDmitrenco/zento)
 
-An experimental application exploring AI-assisted search and multi-step workflows to discover local places and show recommendations on an interactive map.
+A full-stack e-commerce application built as a portfolio/MVP project.
 
-**What it explores:**
-- AI-powered natural language search
-- Multi-step filtering and verification
-- Interactive map visualization (Leaflet)
-- Real-time progress streaming with Server-Sent Events
+**What it demonstrates:**
+- Authentication and user accounts
+- Product catalog
+- Shopping cart and checkout
+- Order management
+- Admin panel
+- PostgreSQL / Drizzle ORM
+- Multilingual UI
+- AI shopping assistant
+- Automated testing
 
-[Live Demo](https://aura-three-weld.vercel.app/) · [GitHub](https://github.com/NikitaDmitrenco/aura)
+[Live Demo](https://zento-blue.vercel.app) · [GitHub](https://github.com/NikitaDmitrenco/zento)
 
 ---
 
@@ -62,13 +76,21 @@ An experimental application exploring AI-assisted search and multi-step workflow
 React · Next.js · TypeScript
 
 ### Backend & Data
-Node.js · PostgreSQL · Supabase · APIs
+Node.js · PostgreSQL · Supabase · Drizzle ORM · APIs
 
-### Integrations
-Telegram Bots · AI APIs · Speech-to-Text
+### Product & Integrations
+E-commerce · Authentication · Admin Panels · Telegram Bots · AI APIs · Speech-to-Text
 
-### Testing
-Vitest · Playwright
+### Testing & Delivery
+Vitest · Playwright · Vercel · SEO
+
+---
+
+## How I Work
+
+I use AI tools as part of my development workflow, but the goal is always a working product — not just generated code.
+
+I care about the full system: product flows, data models, backend logic, integrations, security, testing and the admin tools needed to operate the product after launch.
 
 ---
 
@@ -76,13 +98,12 @@ Vitest · Playwright
 
 **Open to:**
 - Full-stack development roles
-- AI application development
+- Product development
+- E-commerce projects
+- AI-powered applications
 - MVP & rapid product development
 - Freelance & client projects
-- Startup collaborations
 
 - **GitHub:** [@NikitaDmitrenco](https://github.com/NikitaDmitrenco)
 - **LinkedIn:** [Nikita Dmitrenco](https://www.linkedin.com/in/nikita-dmitrenco)
 - **Telegram:** [@nik_dmwrite](https://t.me/nik_dmwrite)
-
-
